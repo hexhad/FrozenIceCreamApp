@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141932</color>
+    <color name="colorPrimaryDark">#141932</color>
+    <color name="colorAccent">#141932</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorOnboardingIndicatorInactive">#72bcf7</color>
+
+
+    <!--FOR BOTTOM UP-->
+    <color name="bup_colorPrimary">#212121</color>
+    <color name="bup_colorPrimaryDark">#000000</color>
+    <color name="bup_background_color">#303030</color>
+    <color name="bup_card_background_color">#424242</color>
+
+    //hash
+    <color name="hashOne">#fff</color>
+    <color name="hashTwo">#363636</color>
+    <color name="bar_1">#141932</color>
+
+<!--    <color name="blue">#1e6aff</color>-->
+    <color name="blue">#1b314c</color>
+<!--    <color name="blue">#516df6</color>-->
+
+
+
+<!--    <color name="colorPrimary">#2196f3</color>-->
+<!--    <color name="colorPrimaryDark">#1976d2</color>-->
+<!--    <color name="colorAccent">#ff5252</color>-->
+
+
+</resources>

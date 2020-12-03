@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_corner_24_white"
+    android:layout_margin="40dp"
+    android:layout_gravity="center"
+    android:padding="30dp"
+    >
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="Select The Time That You are comfortable to Reach us"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orders will be ready in below times so Hurry Uo!!"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/btn_1130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11:30" />
+
+            <RadioButton
+                android:id="@+id/btn_1200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:00" />
+
+            <RadioButton
+                android:id="@+id/btn_1230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:30" />
+
+            <RadioButton
+                android:id="@+id/btn_100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01:00" />
+
+            <RadioButton
+                android:id="@+id/btn_130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01:30" />
+
+            <RadioButton
+                android:id="@+id/btn_200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="02:00" />
+
+            <RadioButton
+                android:id="@+id/btn_230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="02:30" />
+
+            <RadioButton
+                android:id="@+id/btn_300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="03:00" />
+
+            <RadioButton
+                android:id="@+id/btn_330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="03:30" />
+
+            <RadioButton
+                android:id="@+id/btn_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="04:00" />
+
+            <RadioButton
+                android:id="@+id/btn_430"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="04:30" />
+
+            <RadioButton
+                android:id="@+id/btn_500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="05:00" />
+
+            <RadioButton
+                android:id="@+id/btn_530"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="05:30" />
+
+            <RadioButton
+                android:id="@+id/btn_600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="06:00" />
+        </RadioGroup>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/selected_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Selection"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_set_time"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/blue"
+            android:text="Select Time" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_close_list"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="30dp"
+            android:text="Cancel"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+</LinearLayout>

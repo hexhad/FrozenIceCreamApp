@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_cont"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!--    <com.ismaeldivita.chipnavigation.ChipNavigationBar-->
+<!--        android:layout_marginBottom="9dp"-->
+<!--        android:id="@+id/bottom_nav"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@drawable/bg_1"-->
+<!--        android:elevation="0dp"-->
+<!--        android:paddingRight="8dp"-->
+<!--        android:paddingLeft="8dp"-->
+<!--        app:cnb_menuResource="@menu/bottom_menu" />-->
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF"
+        android:elevation="0dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        app:cnb_menuResource="@menu/bottom_menu" />
+
+
+</RelativeLayout>

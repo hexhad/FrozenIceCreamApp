@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "558480020732",
+    "firebase_url": "https://usermanager-da012.firebaseio.com",
+    "project_id": "usermanager-da012",
+    "storage_bucket": "usermanager-da012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558480020732:android:789a68507be2c82f3a3379",
+        "android_client_info": {
+          "package_name": "com.hexhad.introaprilone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558480020732-np5ukdfc9l95un58cc4kpvuuk13tbspb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hexhad.introaprilone",
+            "certificate_hash": "51d0bdc040ee1e41267ad6a8f8e50ee7c66d69e2"
+          }
+        },
+        {
+          "client_id": "558480020732-tuevn8dlrkgsend5in4slrd8tan4d11d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOEtVjY-SsG2Mcez_WrcMQhzGlhc91Gv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558480020732-tuevn8dlrkgsend5in4slrd8tan4d11d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
